@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.section {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 10px 0 #cccccc;
+}
+
+h1{
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+}
+
+form {
+    width: 80%;
+}
+
+form input {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    border-radius: .7rem;
+    border: 1px solid #d1d1d1;
+    background: #f1f1f1;
+    transition: .4s;
+}
+
+form input:hover {
+    border: 1px solid #a0a0a0;
+    outline: none;
+}
+
+form input:focus {
+    border: 1px solid #6b6b6b;
+    outline: none;
+}
+
+
+
+form input[type="text"] {
+    width: 100%;
+}
+
+form label {
+    display: flex;
+    margin-bottom: .3rem;
+}
+
+form .box-fr,
+form .box-la {
+    width: calc((100% - .5rem) / 2);
+    display: inline-block;
+}
+
+form .box-la {
+    margin-left: .23rem;
+}
+
+form div{
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+button{
+    display: block;
+    font-size: 1.1rem;
+    padding: .5rem 4rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: .7rem;
+    border: 2px solid transparent;
+    background: #f1f1f1;
+    transition: .4s;
+}
+
+button:hover {
+    border: 2px solid #6b6b6b;
+}
+
+
+
+
+
+.active {
+    background-color: #ecb5b5;
+    border: #fb7777 solid 1px;
+}
+
+.active:focus {
+    background-color: #ecb5b5;
+    border: #f61c1c solid 1px;
+}
+
+.active:hover {
+    background-color: #ecb5b5;
+    border: #ff5454eb solid 1px;
+}
+
+p {
+    color: #f61c1c;
+    font-size: 12px;
+}
+
+.none {
+    display: none;
+}
